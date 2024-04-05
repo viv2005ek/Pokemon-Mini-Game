@@ -28,14 +28,9 @@ Poki-World is a web application that lets you choose your Pokémon and fight aga
 4. The application will determine the winner based on Pokémon type matchups and display the result.
 5. You can switch between dark and light mode by clicking on the mode toggle button.
 
-## Screenshots
-![Screenshot](screenshots/screenshot.png)
 
 ## Credits
 - [Font Awesome Icons](https://fontawesome.com/)
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## View on Replit
+https://replit.com/@viv2005ek/pokemon-mini-game

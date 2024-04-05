@@ -55,7 +55,7 @@ function draw(){
   computerScore.style.color="#394e5c";
 }
 
-bodyNode.style.backgroundImage = "url('pxfuelDark.jpg')";
+bodyNode.style.backgroundImage = "url('../Pokemon-Mini-Game/pxfuelDark.jpg')";
 
 
 
@@ -70,7 +70,7 @@ let mode="dark";
 mod.addEventListener("click",(e) =>{
   if (mode === "dark") {
     mode = "light";
-    bodyNode.style.backgroundImage = "url('pxfuel.jpg')";
+    bodyNode.style.backgroundImage = "url('../Pokemon-Mini-Game/pxfuel.jpg')";
     document.body.style.color="black";
     modText.innerText="Dark Mode";
     
@@ -79,7 +79,7 @@ mod.addEventListener("click",(e) =>{
     });
   } else {
     mode = "dark";
-    bodyNode.style.backgroundImage = "url('pxfuelDark.jpg')";
+    bodyNode.style.backgroundImage = "url('../Pokemon-Mini-Game/pxfuelDark.jpg')";
      document.body.style.color="white";
     modText.innerText="Light Mode";
     
