@@ -55,7 +55,7 @@ function draw(){
   computerScore.style.color="#394e5c";
 }
 
-bodyNode.style.backgroundImage = "url('../Pokemon-Mini-Game/pxfuelDark.jpg')";
+bodyNode.style.backgroundImage = "url('pxfuelDark.jpg')";
 
 
 
@@ -70,7 +70,7 @@ let mode="dark";
 mod.addEventListener("click",(e) =>{
   if (mode === "dark") {
     mode = "light";
-    bodyNode.style.backgroundImage = "url('../Pokemon-Mini-Game/pxfuel.jpg')";
+    bodyNode.style.backgroundImage = "url('pxfuel.jpg')";
     document.body.style.color="black";
     modText.innerText="Dark Mode";
     
