@@ -79,7 +79,7 @@ mod.addEventListener("click",(e) =>{
     });
   } else {
     mode = "dark";
-    bodyNode.style.backgroundImage = "url('../Pokemon-Mini-Game/pxfuelDark.jpg')";
+    bodyNode.style.backgroundImage = "url('pxfuelDark.jpg')";
      document.body.style.color="white";
     modText.innerText="Light Mode";
     
