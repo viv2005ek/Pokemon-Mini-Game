@@ -205,13 +205,6 @@ margin: 20px;
 
 
 
-.swingButton{
-  margin-top: 10px;
-}
-.swingButton:hover{
-  transform: translate(400px,0) rotate(360deg);
-    transition:all 4s ease;
-}  
 
 #scaledFrame{
   height: 600px;
